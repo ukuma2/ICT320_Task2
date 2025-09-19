@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="title">Create Account</h2>
+<form method="post" class="form">
+  <input type="email" name="login" placeholder="Email" required class="input">
+  <input type="text" name="firstname" placeholder="First name" required class="input">
+  <input type="password" name="password" placeholder="Password" required class="input">
+  <p class="security-q">Security Question: {{ question }}</p>
+  <input type="text" name="security_a" placeholder="Your answer" required class="input">
+  <button type="submit" class="btn">Register</button>
+</form>
+{% endblock %}

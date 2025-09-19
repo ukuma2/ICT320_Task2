@@ -1,0 +1,32 @@
+2025-09-15 16:01:49,123 event=login login=jennifer39@yahoo.com outcome=failure reason=invalid
+2025-09-16 12:11:04,100 event=login login=xiaoli74@msn.com outcome=success reason=
+2025-09-16 12:13:03,330 event=login login=xiaoli74@msn.com outcome=fail reason=wrong password
+2025-09-16 12:13:14,467 event=login login=xiaoli74@msn.com outcome=success reason=
+2025-09-18 19:22:42,201 event=register login=jane@example.com outcome=success reason=
+2025-09-18 19:23:59,069 event=register login=jane@example.com outcome=fail reason=duplicate user
+2025-09-18 19:25:21,894 event=login login=jane@example.com outcome=success reason=
+2025-09-18 19:30:22,651 event=login login=jane@example.com outcome=fail reason=wrong password
+2025-09-18 19:31:03,248 event=login login=user@gmail.com outcome=fail reason=no such user
+2025-09-18 19:32:36,408 event=forgot login= outcome=fail reason=no such user
+2025-09-18 19:33:03,672 event=forgot login= outcome=fail reason=no such user
+2025-09-18 19:33:18,326 event=login login=jane@example.com outcome=success reason=
+2025-09-18 19:34:17,492 event=forgot login= outcome=fail reason=no such user
+2025-09-18 19:34:53,460 event=register login=uk@gmail.com outcome=success reason=
+2025-09-18 19:35:04,602 event=login login=uk@gmail.com outcome=success reason=
+2025-09-18 19:35:28,481 event=forgot login= outcome=fail reason=no such user
+2025-09-19 14:45:14,024 event=forgot login= outcome=fail reason=no such user
+2025-09-19 15:16:29,689 event=forgot login= outcome=fail reason=no such user
+2025-09-19 15:18:41,829 event=forgot login=jennifer21@msn.com outcome=success reason=
+2025-09-19 15:18:59,964 event=register login=uk@gmail.com outcome=fail reason=duplicate user
+2025-09-19 15:19:31,955 event=forgot login=uk@gmail.com outcome=success reason=
+2025-09-19 15:19:41,245 event=login login=uk@gmail.com outcome=success reason=
+2025-09-19 15:19:48,686 event=login login=uk@gmail.com outcome=fail reason=wrong password
+2025-09-19 15:20:38,069 event=forgot login=uk@gmail.com outcome=success reason=
+2025-09-19 15:21:13,162 event=forgot login=uk@gmail.com outcome=fail reason=wrong answer
+2025-09-19 16:01:00,788 event=register login=autotest@example.com outcome=success reason=
+2025-09-19 16:01:01,405 event=login login=autotest@example.com outcome=success reason=
+2025-09-19 16:01:02,012 event=login login=autotest@example.com outcome=fail reason=wrong password
+2025-09-19 16:01:03,439 event=register login=autotest_reset@example.com outcome=success reason=
+2025-09-19 16:01:04,485 event=forgot login=autotest_reset@example.com outcome=fail reason=wrong answer
+2025-09-19 16:01:05,775 event=forgot login=autotest_reset@example.com outcome=success reason=
+2025-09-19 16:01:06,412 event=login login=autotest_reset@example.com outcome=success reason=

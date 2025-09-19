@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="title">Forgot Password</h2>
+{% if stage == "verify" %}
+  <form method="post" action="{{ url_for('forgot_verify') }}" class="form">
+    <p class="security-q">{{ question }}</p>
+    <input type="hidden" name="login" value="{{ login }}">
+    <input type="text" name="answer" placeholder="Answer" required class="input">
+    <input type="password" name="newpw" placeholder="New Password" required class="input">
+    <button type="submit" class="btn">Reset</button>
+  </form>
+{% else %}
+  <form method="post" class="form">
+    <input type="email" name="login" placeholder="Email" required class="input">
+    <button type="submit" class="btn">Continue</button>
+  </form>
+{% endif %}
+{% endblock %}
