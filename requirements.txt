@@ -1,0 +1,24 @@
+Flask==3.0.3
+redis==5.0.1
+bcrypt==4.1.2
+pytest==8.4.2
+# initialise repo
+git init
+# connect to GitHub repo (replace with your repo URL)
+git remote add origin https://github.com/ukuma2/ICT320_Task2.git
+
+# ignore venv and cache files
+echo "venv/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo ".pytest_cache/" >> .gitignore
+echo "*.pyc" >> .gitignore
+
+>> # add everything
+git add .
+
+# commit
+git commit -m "Initial commit - ICT320 Task 2 login prototype"
+>>
+>> # push
+>> git branch -M main
+>> git push -u origin main
