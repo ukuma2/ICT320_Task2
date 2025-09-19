@@ -42,7 +42,7 @@ ICT320_Task2/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YourUsername/ICT320_Task2.git
+git clone https://github.com/ukuma2/ICT320_Task2.git
 cd ICT320_Task2
 ```
 
@@ -135,3 +135,4 @@ This suite validates:
 **Utkarsh Kumar**  
 Student ID: 1166627  
 University of the Sunshine Coast  
+
